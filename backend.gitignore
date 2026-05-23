@@ -1,0 +1,33 @@
+# =============================================================================
+# .gitignore — Healert Backend
+# =============================================================================
+
+# Secrets — NEVER commit
+.env
+
+# Database — runtime data
+healert.db
+healert.db-shm
+healert.db-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

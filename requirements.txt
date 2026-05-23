@@ -1,0 +1,26 @@
+# =============================================================================
+# requirements.txt — Healert Backend v0.1.1
+# =============================================================================
+#
+# Copyright 2026 Healert OÜ — Apache-2.0
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# Production install (no cache, exact versions):
+#   pip install --no-cache-dir -r requirements.txt
+#
+# =============================================================================
+
+# FastAPI — web framework for the REST API
+fastapi==0.115.0
+
+# Uvicorn — ASGI server to run FastAPI
+uvicorn[standard]==0.30.6
+
+# Pydantic v2 — request/response validation and serialisation
+pydantic==2.9.0
+
+# SlowAPI — rate limiting middleware for FastAPI
+# Used to limit POST /events to 60 requests/minute per IP
+slowapi==0.1.9
