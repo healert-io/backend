@@ -14,7 +14,7 @@ exponential time decay, and serves data to the Backstage plugin via REST API.
 ## Overview
 
 ```
-Healert Go Agent  (github.com/healert/agent)
+Healert Go Agent  (github.com/healert-io/agent)
       |  POST /events  (API key auth, rate limited 60/min)
       v
 Healert Backend                         <- this repo
@@ -56,7 +56,7 @@ healert-backend/
 |
 +-- CHANGELOG.md      Version history
 |
-+-- LICENSE           Apache-2.0, Copyright 2026 Healert OU
++-- LICENSE           Apache-2.0, Copyright 2026 Healert OÜ
 ```
 
 ---
@@ -105,10 +105,10 @@ Expected:
 
 ---
 
-## Managed by healert.sh
+## Managed by healert.sh "Recommended"
 
 In production the backend is managed by the agent management script:
-[healert-io/agent](https://github.com/healert-io/agent) | Go agent + DaemonSet + healert.sh |
+# [healert-io/agent](https://github.com/healert-io/agent) | Go agent + DaemonSet + healert.sh |
 
 ```bash
 # From the agent directory (github.com/healert/agent)
