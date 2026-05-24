@@ -108,7 +108,8 @@ Expected:
 ## Managed by healert.sh "Recommended"
 
 In production the backend is managed by the agent management script:
-# [healert-io/agent](https://github.com/healert-io/agent) | Go agent + DaemonSet + healert.sh |
+
+[healert-io/agent](https://github.com/healert-io/agent) | Go agent + DaemonSet + healert.sh |
 
 ```bash
 # From the agent directory (github.com/healert/agent)
