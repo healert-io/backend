@@ -4,13 +4,13 @@
 
 | Version | Supported |
 |---|---|
-| 0.1.x   | ✅ Yes    |
+| 0.1.1   |  Yes    |
 
 ## Reporting a Vulnerability
 
 Please do NOT open a public GitHub issue for security vulnerabilities.
 
-**Email:** hello@healert.io
+**Email:** Security@healert.io
 
 Include:
 - Description of the vulnerability
