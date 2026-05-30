@@ -1,5 +1,5 @@
 # =============================================================================
-# main.py — Healert Backend v0.1.1
+# main.py — Healert Backend v0.1.1 Coral
 # =============================================================================
 #
 # Copyright 2026 Healert OÜ
@@ -8,7 +8,7 @@
 #
 # =============================================================================
 
-# main.py — Healert Backend v0.1.1
+# main.py — Healert Backend v0.1.1 Coral
 #
 # Self-hosted FastAPI backend for the Healert Backstage plugin.
 # Receives friction events from the Go agent, calculates friction scores,
@@ -136,7 +136,7 @@ limiter = Limiter(key_func=get_remote_address)
 
 app = FastAPI(
     title='Healert Backend',
-    version='0.1.1',
+    version='v0.1.1 Coral',
     docs_url=None,   # Disable Swagger UI in production
     redoc_url=None,  # Disable ReDoc in production
 )
@@ -490,7 +490,7 @@ def health() -> dict:
     """Health check endpoint — no authentication required."""
     return {
         'status':  'ok',
-        'version': '0.1.1',
+        'version': 'v0.1.1 Coral',
         'auth':    'enabled' if API_KEY else 'disabled (set HEALERT_API_KEY)',
     }
 
