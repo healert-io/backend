@@ -1,5 +1,5 @@
 # =============================================================================
-# requirements.txt — Healert Backend v0.1.1
+# requirements.txt — Healert Backend v0.1.1 Coral
 # =============================================================================
 #
 # Copyright 2026 Healert OÜ — Apache-2.0
