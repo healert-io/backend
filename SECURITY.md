@@ -4,7 +4,7 @@
 
 | Version | Supported |
 |---|---|
-| 0.1.1   |  Yes    |
+| v0.1.1 Coral   |  Yes    |
 
 ## Reporting a Vulnerability
 
