@@ -6,7 +6,7 @@ Receives friction events from the Go agent, calculates friction scores using
 exponential time decay, and serves data to the Backstage plugin via REST API.
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Version](https://img.shields.io/badge/version-v0.1.1 Coral-green.svg)](https://github.com/healert-io/backend/releases)
+[![Version](https://img.shields.io/badge/version-v0.1.0-green.svg)](https://github.com/healert-io/backend/releases)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 
 ---
@@ -172,7 +172,7 @@ curl http://localhost:8000/health
 ```
 
 ```json
-{"status": "ok", "version": "v0.1.1 Coral", "auth": "enabled"}
+{"status": "ok", "version": "v0.1.0", "auth": "enabled"}
 ```
 
 ---
