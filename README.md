@@ -270,12 +270,6 @@ Limit is capped at 500 to prevent large responses.
 The friction score uses exponential time decay — recent events matter more
 than old ones. Scores decay automatically — no manual resets needed.
 
-```
-Score = min(100, round(weighted_total / threshold * 100))
-
-weighted_total = sum(points * 0.5 ^ (age_days / half_life))
-```
-
 ### Severity Points
 
 | Severity | Points |
